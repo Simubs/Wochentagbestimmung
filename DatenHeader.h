@@ -20,7 +20,4 @@ eingabeDatum eingabe();
 
 int ermittleTag(eingabeDatum datum);
 
-int ermittleTagzwei(eingabeDatum datum);
-
-
 #endif //WOCHENTAGBESTIMMUNG_DATENHEADER_H

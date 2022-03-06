@@ -7,8 +7,6 @@
 
 using namespace std;
 
-
-
 eingabeDatum eingabe(){
     eingabeDatum eingegebenes;
 
@@ -36,12 +34,5 @@ int ermittleTag(eingabeDatum datum) {
 
     return (tag+2*h + (3*h+3)/5 + k + k/4 - k/100 + k/400 + 1)%7;
 }
-
-int ermittleTagzwei(eingabeDatum datum)
-{
-
-
-}
-
 
 #include "DatenHeader.h"
